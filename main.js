@@ -26,6 +26,7 @@ items1.addEventListener('click', (e) => {
   link2.style.color = '#BDBDBD'
   span3.style.background = '#FAFAFA'
   link3.style.color = '#BDBDBD'
+  count = 0
 })
 let count = 0
 items2.addEventListener('click', (e) => {
@@ -37,7 +38,7 @@ items2.addEventListener('click', (e) => {
   link2.style.color = '#000'
   span3.style.background = '#FAFAFA'
   link3.style.color = '#BDBDBD'
-  count ++
+  count = 1
 })
 
 nogoback.addEventListener('click',(e) => {
